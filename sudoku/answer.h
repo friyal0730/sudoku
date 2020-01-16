@@ -1,5 +1,4 @@
 #pragma once
-#pragma once
 #ifndef __SOLVER_H__
 #define __SOLVER_H__
 
