@@ -61,7 +61,14 @@ public:
 
 bool compare(char* a, const char* b)  //用于判断字符串的函数
 {
-	
+	if (strlen(a) != strlen(b))
+		return false;
+	for (int i = 0; i < (int)strlen(a); i++)
+	{
+		if (a[i] != b[i])
+			return false;
+	}
+	return true;
 }
 #endif
 #pragma once
