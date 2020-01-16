@@ -104,7 +104,7 @@ private:
 		temp[pointer] = '\n';
 		fputs(temp, file_write);
 	}
-
+	   
 	void TransForm()
 	{
 		int move = 0;
