@@ -29,10 +29,7 @@ public:
 	struct node location[9];
 //	FILE* file_write;
 
-//	Generator(int number, FILE* file)
-	{
-		
-	}
+//	Generator(int number, FILE* file){}
 
 	void generate()   //Éú³Éº¯Êý
 	{
