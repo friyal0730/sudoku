@@ -1,6 +1,6 @@
 #pragma once
-#ifndef _CHECK_H_
-#define _CHECK_H_
+#ifndef _solve_H_
+#define _solve_H_
 
 #include <cstdio>
 #include <cstdlib>
@@ -13,19 +13,19 @@ using namespace std;
 
 bool compare(char* a, const char* b);
 
-class Check {
+class solve {
 public:
 	int argc;
 	char** argv;
 	int flag;
-	Check(int argc, char** argv)
+	solve(int argc, char** argv)
 	{
 		this->argc = argc;
 		this->argv = argv;
-		checkinput();
+		solveinput();
 	}
 
-	int checkinput()
+	int solveinput()
 	{
 		if (argc != 3)   //输入格式不正确
 		{
