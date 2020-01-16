@@ -2,7 +2,10 @@
 #ifndef __Base_H__
 #define __Base_H__
 
+#include <iostream>
+#include <string>
 #include <cstdio>
+#include <cstdlib>
 #include <vector>
 #include <cstdlib>
 #include <algorithm>
