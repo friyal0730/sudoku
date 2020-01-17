@@ -112,6 +112,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="question.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="answer.h" />
