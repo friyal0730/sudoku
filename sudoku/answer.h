@@ -1,6 +1,6 @@
 #pragma once
-#ifndef __SOLVER_H__
-#define __SOLVER_H__
+#ifndef __Answer_H__
+#define __Answer_H__
 
 #pragma warning(disable : 4996)
 
@@ -11,14 +11,14 @@
 using namespace std;
 
 int flag = 0;
-class Solver{
+class Answer{
 public:
 	int sudoku[9][9];
 	FILE* question;
 	FILE* file_write;
 	int flag;
 	
-	Solver(FILE* path,FILE* ans)
+	Answer(FILE* path,FILE* ans)
 	{
 		flag = 0;
 		question = path;
