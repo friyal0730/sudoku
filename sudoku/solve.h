@@ -1,6 +1,7 @@
-/* solve.h
+/* 
+ * solve.h
  * 类名：solve
- * 作用：检查判断输入参数，并创建相应的数独生成对象或数独解决对象
+ * 作用：检查判断输入参数，并创建相应的数独生成对象或者数独解决对象
  * 
  */
 #pragma once
@@ -38,7 +39,7 @@ public:
 			return 1;
 		}
 
-		if (strcmp(argv[1], "-c") || strcmp(argv[1], "-s"))   //字母错误
+		if (strcmp(argv[1], "-c") && strcmp(argv[1], "-s"))   //字母错误
 		{
 			cout << "The first parameter should only be -c or -s" << endl;
 			cout << "-c means to generate the sudoku to file." << endl;
