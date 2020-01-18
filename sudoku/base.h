@@ -63,9 +63,9 @@ public:
 			Out();
 			number++;
 
-			Line_exchange_floor(&number);
-			Line_exchange_middle(&number);
-			Line_exchange_ground(&number);    //换行
+			Line_exchange_floor(&number);//换上面部分的行
+			Line_exchange_middle(&number);//换中间部分的行
+			Line_exchange_ground(&number);//换下面部分的行
 
 			if (number < count)
 			{

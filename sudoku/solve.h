@@ -99,7 +99,7 @@ public:
 			/*...........*/
 			ans = freopen("sudoku.txt", "w", stdout);
 			Answer Answer(question, ans);   //µ÷ÓÃSolver
-			flag = solver.in();
+			flag = Answer.in();
 			/*----------------------------------*/
 			return 7;
 		}
