@@ -1,4 +1,3 @@
-#include "stdafx.h"
 #include "CppUnitTest.h"
 #include "../sudoku/base.h"
 #include "../sudoku/solve.h"

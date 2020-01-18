@@ -1,6 +1,6 @@
 #pragma once
-#ifndef __Base_H__
-#define __Base_H__
+#ifndef __base_H__
+#define __base_H__
 
 #include <cstdio>
 #include <vector>
