@@ -77,7 +77,7 @@ public:
 
 			FILE* file;
 			file = freopen("sudoku.txt", "w", stdout);   //没有文件时可以创造
-			Base base(sum, file);    //调用Generator
+			Base base(sum, file);    //调用Base
 			base.generate();
 			/*----------------------------------*/
 
@@ -98,7 +98,7 @@ public:
 			/*创建数独求解对象*/
 			/*...........*/
 			ans = freopen("sudoku.txt", "w", stdout);
-			Solver solver(question, ans);   //调用Solver
+			Answer Answer(question, ans);   //调用Solver
 			flag = solver.in();
 			/*----------------------------------*/
 			return 7;
