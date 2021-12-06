@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-06T06:01:03.533Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="RZg-pcIP4lPFESlVHU5E" version="15.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-06T06:14:06.897Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="-fnThyBYCBIO3YbpTwkd" version="15.3.0" type="github">
   <diagram id="XqHBBupAEOCYfzV7xGW0" name="Page-1">
     <mxGraphModel dx="1422" dy="706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -70,7 +70,7 @@
             <mxPoint x="414" y="650" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Iehtbdi1jCsezIn86gaG-24" value="同第1关" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="Iehtbdi1jCsezIn86gaG-23">
+        <mxCell id="Iehtbdi1jCsezIn86gaG-24" value="结算过程同第1关" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="Iehtbdi1jCsezIn86gaG-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Iehtbdi1jCsezIn86gaG-25" value="通过第5关" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -135,50 +135,101 @@
         <mxCell id="Iehtbdi1jCsezIn86gaG-38" value="进入建造引导" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="354" y="1000" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Iehtbdi1jCsezIn86gaG-39" value="回到主界面" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="354" y="1070" width="120" height="40" as="geometry" />
+        <mxCell id="Iehtbdi1jCsezIn86gaG-56" value="主界面" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="730" y="40" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Iehtbdi1jCsezIn86gaG-41" value="放回道具解锁" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="354" y="1140" width="120" height="40" as="geometry" />
+        <mxCell id="Iehtbdi1jCsezIn86gaG-57" value="放回道具解锁" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="110" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Iehtbdi1jCsezIn86gaG-43" value="点击第6关" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="354" y="1280" width="120" height="40" as="geometry" />
+        <mxCell id="Iehtbdi1jCsezIn86gaG-58" value="点击第6关" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="250" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Iehtbdi1jCsezIn86gaG-45" value="局内" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="354" y="1350" width="120" height="40" as="geometry" />
+        <mxCell id="Iehtbdi1jCsezIn86gaG-59" value="局内" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="730" y="320" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Iehtbdi1jCsezIn86gaG-46" value="道具飞到主界面关卡按钮里" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="354" y="1210" width="120" height="40" as="geometry" />
+        <mxCell id="Iehtbdi1jCsezIn86gaG-60" value="道具飞到主界面关卡按钮里" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="180" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Iehtbdi1jCsezIn86gaG-47" value="放回道具引导" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="354" y="1420" width="120" height="40" as="geometry" />
+        <mxCell id="Iehtbdi1jCsezIn86gaG-61" value="放回道具引导界面" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="390" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Iehtbdi1jCsezIn86gaG-48" value="第6关关卡" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="354" y="1490" width="120" height="40" as="geometry" />
+        <mxCell id="Iehtbdi1jCsezIn86gaG-62" value="第6关关卡" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="460" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Iehtbdi1jCsezIn86gaG-49" value="关卡结算奖励银币" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="354" y="1560" width="120" height="40" as="geometry" />
+        <mxCell id="Iehtbdi1jCsezIn86gaG-63" value="关卡结算奖励银币" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="530" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Iehtbdi1jCsezIn86gaG-50" value="回到主界面" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="354" y="1630" width="120" height="40" as="geometry" />
+        <mxCell id="Iehtbdi1jCsezIn86gaG-64" value="回到主界面" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="730" y="600" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Iehtbdi1jCsezIn86gaG-51" value="章节结算" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="354" y="1700" width="120" height="40" as="geometry" />
+        <mxCell id="Iehtbdi1jCsezIn86gaG-65" value="章节结算" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="670" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Iehtbdi1jCsezIn86gaG-52" value="点击第7关" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="354" y="1770" width="120" height="40" as="geometry" />
+        <mxCell id="Iehtbdi1jCsezIn86gaG-66" value="点击第7关" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="740" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Iehtbdi1jCsezIn86gaG-53" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Iehtbdi1jCsezIn86gaG-52">
+        <mxCell id="Iehtbdi1jCsezIn86gaG-69" value="第10关通关后&lt;br&gt;章节结算" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="929.92" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Iehtbdi1jCsezIn86gaG-70" value="shuffle道具解锁" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="999.92" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Iehtbdi1jCsezIn86gaG-71" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="424" y="580" as="sourcePoint" />
-            <mxPoint x="414" y="1890" as="targetPoint" />
+            <mxPoint x="789.5" y="1039.92" as="sourcePoint" />
+            <mxPoint x="789.5" y="1119.92" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Iehtbdi1jCsezIn86gaG-54" value="同第6关" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="Iehtbdi1jCsezIn86gaG-53">
+        <mxCell id="Iehtbdi1jCsezIn86gaG-72" value="同放回道具解锁过程" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="Iehtbdi1jCsezIn86gaG-71">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Iehtbdi1jCsezIn86gaG-55" value="第10关后章节结算" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="354" y="1890" width="120" height="40" as="geometry" />
+        <mxCell id="Iehtbdi1jCsezIn86gaG-73" value="第7关关卡" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="810" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Iehtbdi1jCsezIn86gaG-74" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Iehtbdi1jCsezIn86gaG-73">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="799.5" y="1049.92" as="sourcePoint" />
+            <mxPoint x="790" y="930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Iehtbdi1jCsezIn86gaG-75" value="结算过程同第6关" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="Iehtbdi1jCsezIn86gaG-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Iehtbdi1jCsezIn86gaG-76" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Iehtbdi1jCsezIn86gaG-33" target="Iehtbdi1jCsezIn86gaG-37">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="424" y="700" as="sourcePoint" />
+            <mxPoint x="424" y="730" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Iehtbdi1jCsezIn86gaG-77" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Iehtbdi1jCsezIn86gaG-37" target="Iehtbdi1jCsezIn86gaG-38">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="434" y="710" as="sourcePoint" />
+            <mxPoint x="434" y="740" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Iehtbdi1jCsezIn86gaG-78" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="Iehtbdi1jCsezIn86gaG-70">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="790" y="970" as="sourcePoint" />
+            <mxPoint x="444" y="750" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Iehtbdi1jCsezIn86gaG-79" value="第15关通关后&lt;br&gt;章节结算" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="1120" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Iehtbdi1jCsezIn86gaG-80" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Iehtbdi1jCsezIn86gaG-79">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="799.5" y="1049.92" as="sourcePoint" />
+            <mxPoint x="790" y="1230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Iehtbdi1jCsezIn86gaG-81" value="同放回道具解锁过程" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="Iehtbdi1jCsezIn86gaG-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Iehtbdi1jCsezIn86gaG-82" value="正常关卡结算循环" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="1230" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
