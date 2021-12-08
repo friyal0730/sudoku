@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-08T08:09:53.561Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="jTop-D5NUkBlcPh3uh4k" version="15.9.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-08T08:24:47.436Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="pno2YTe9Z6m_pFGijm1c" version="15.9.1" type="github">
   <diagram id="d0Gb9ExgJwCwHQkFDARk" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -46,11 +46,14 @@
         <mxCell id="hKAbpb486GyOKFeo6Ovj-11" value="玩家中途退出" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="540" y="320" width="120" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="hKAbpb486GyOKFeo6Ovj-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hKAbpb486GyOKFeo6Ovj-12" target="hKAbpb486GyOKFeo6Ovj-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="hKAbpb486GyOKFeo6Ovj-12" value="玩家继续关卡" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="354" y="670" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="hKAbpb486GyOKFeo6Ovj-13" value="玩法引导结束" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="354" y="740" width="120" height="40" as="geometry" />
+        <mxCell id="hKAbpb486GyOKFeo6Ovj-13" value="道具引导结束" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="354" y="810" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="hKAbpb486GyOKFeo6Ovj-14" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hKAbpb486GyOKFeo6Ovj-4" target="hKAbpb486GyOKFeo6Ovj-10">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -74,12 +77,6 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="454" y="330" as="sourcePoint" />
             <mxPoint x="454" y="360" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="hKAbpb486GyOKFeo6Ovj-18" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hKAbpb486GyOKFeo6Ovj-12" target="hKAbpb486GyOKFeo6Ovj-13">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="464" y="410" as="sourcePoint" />
-            <mxPoint x="464" y="440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="hKAbpb486GyOKFeo6Ovj-19" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hKAbpb486GyOKFeo6Ovj-8" target="hKAbpb486GyOKFeo6Ovj-20">
@@ -107,19 +104,16 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="hKAbpb486GyOKFeo6Ovj-23" value="玩法引导通关界面" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="354" y="810" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="hKAbpb486GyOKFeo6Ovj-31" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hKAbpb486GyOKFeo6Ovj-13" target="hKAbpb486GyOKFeo6Ovj-23">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="424" y="720" as="sourcePoint" />
-            <mxPoint x="424" y="750" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="hKAbpb486GyOKFeo6Ovj-32" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hKAbpb486GyOKFeo6Ovj-23">
+        <mxCell id="hKAbpb486GyOKFeo6Ovj-31" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hKAbpb486GyOKFeo6Ovj-12" target="hKAbpb486GyOKFeo6Ovj-49">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="424" y="790" as="sourcePoint" />
             <mxPoint x="414" y="880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hKAbpb486GyOKFeo6Ovj-32" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="hKAbpb486GyOKFeo6Ovj-49">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="414" y="920" as="sourcePoint" />
+            <mxPoint x="414" y="810" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="hKAbpb486GyOKFeo6Ovj-39" value="玩家死亡&lt;br&gt;（特殊发牌）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -129,6 +123,64 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="414" y="360" as="sourcePoint" />
             <mxPoint x="414" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hKAbpb486GyOKFeo6Ovj-41" value="玩家中途退出" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="670" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hKAbpb486GyOKFeo6Ovj-42" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="474" y="689.5" as="sourcePoint" />
+            <mxPoint x="540" y="689.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hKAbpb486GyOKFeo6Ovj-43" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="hKAbpb486GyOKFeo6Ovj-41">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="410" as="sourcePoint" />
+            <mxPoint x="710" y="330" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="710" y="690" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hKAbpb486GyOKFeo6Ovj-44" value="玩家死亡" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="670" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hKAbpb486GyOKFeo6Ovj-46" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hKAbpb486GyOKFeo6Ovj-12" target="hKAbpb486GyOKFeo6Ovj-44">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="484" y="699.5" as="sourcePoint" />
+            <mxPoint x="550" y="699.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hKAbpb486GyOKFeo6Ovj-47" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hKAbpb486GyOKFeo6Ovj-44" target="hKAbpb486GyOKFeo6Ovj-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="670" y="700" as="sourcePoint" />
+            <mxPoint x="720" y="340" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="120" y="690" />
+              <mxPoint x="120" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hKAbpb486GyOKFeo6Ovj-49" value="玩家通过&lt;br&gt;道具引导关卡" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="740" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hKAbpb486GyOKFeo6Ovj-50" value="结算界面" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="880" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hKAbpb486GyOKFeo6Ovj-51" value="主界面" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="354" y="950" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hKAbpb486GyOKFeo6Ovj-54" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hKAbpb486GyOKFeo6Ovj-13" target="hKAbpb486GyOKFeo6Ovj-50">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="424" y="790" as="sourcePoint" />
+            <mxPoint x="424" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hKAbpb486GyOKFeo6Ovj-55" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hKAbpb486GyOKFeo6Ovj-50" target="hKAbpb486GyOKFeo6Ovj-51">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="434" y="800" as="sourcePoint" />
+            <mxPoint x="434" y="830" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
