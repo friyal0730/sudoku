@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-08T07:43:22.439Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="nO6hsqkGIKMgh8E10L8x" version="15.9.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-08T07:49:14.374Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="TwN37cW_vIH4bJMoSK3v" version="15.9.1" type="github">
   <diagram id="ImNs1xZGlemWh_J_eiTZ" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -34,23 +34,78 @@
             <mxPoint x="414" y="110" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="doVi69SOKDGzMumPR583-8" value="引导界面1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="doVi69SOKDGzMumPR583-8" value="玩法引导开始" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="354" y="320" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="doVi69SOKDGzMumPR583-9" value="引导界面2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="354" y="390" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="doVi69SOKDGzMumPR583-10" value="进入关卡" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="354" y="460" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="doVi69SOKDGzMumPR583-11" value="玩家中途退出" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="540" y="460" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="doVi69SOKDGzMumPR583-12" value="玩家通关" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="doVi69SOKDGzMumPR583-10" value="进入关卡" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="354" y="530" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="doVi69SOKDGzMumPR583-13" value="玩法引导结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="doVi69SOKDGzMumPR583-11" value="玩家中途退出" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="530" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="doVi69SOKDGzMumPR583-12" value="玩家通关" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="354" y="600" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="doVi69SOKDGzMumPR583-13" value="玩法引导结束" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="354" y="670" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="doVi69SOKDGzMumPR583-14" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="doVi69SOKDGzMumPR583-4" target="doVi69SOKDGzMumPR583-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="424" y="230" as="sourcePoint" />
+            <mxPoint x="424" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="doVi69SOKDGzMumPR583-16" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="doVi69SOKDGzMumPR583-23" target="doVi69SOKDGzMumPR583-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="434" y="240" as="sourcePoint" />
+            <mxPoint x="434" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="doVi69SOKDGzMumPR583-17" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="doVi69SOKDGzMumPR583-9" target="doVi69SOKDGzMumPR583-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="444" y="320" as="sourcePoint" />
+            <mxPoint x="444" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="doVi69SOKDGzMumPR583-18" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="doVi69SOKDGzMumPR583-10" target="doVi69SOKDGzMumPR583-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="454" y="330" as="sourcePoint" />
+            <mxPoint x="454" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="doVi69SOKDGzMumPR583-19" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="doVi69SOKDGzMumPR583-12" target="doVi69SOKDGzMumPR583-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="464" y="340" as="sourcePoint" />
+            <mxPoint x="464" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="doVi69SOKDGzMumPR583-20" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="doVi69SOKDGzMumPR583-8" target="doVi69SOKDGzMumPR583-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="474" y="280" as="sourcePoint" />
+            <mxPoint x="474" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="doVi69SOKDGzMumPR583-23" value="引导界面1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="390" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="doVi69SOKDGzMumPR583-25" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="doVi69SOKDGzMumPR583-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="474" y="550" as="sourcePoint" />
+            <mxPoint x="424" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="doVi69SOKDGzMumPR583-26" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="doVi69SOKDGzMumPR583-11" target="doVi69SOKDGzMumPR583-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="434" y="310" as="sourcePoint" />
+            <mxPoint x="434" y="340" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="710" y="550" />
+              <mxPoint x="710" y="60" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
