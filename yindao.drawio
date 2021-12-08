@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-08T07:49:14.374Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="TwN37cW_vIH4bJMoSK3v" version="15.9.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-08T07:58:26.230Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="IWgRxVf1e2C1BN8l5M1d" version="15.9.1" type="github">
   <diagram id="ImNs1xZGlemWh_J_eiTZ" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -46,7 +46,7 @@
         <mxCell id="doVi69SOKDGzMumPR583-11" value="玩家中途退出" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="540" y="530" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="doVi69SOKDGzMumPR583-12" value="玩家通关" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="doVi69SOKDGzMumPR583-12" value="玩家通过第1关" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="354" y="600" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="doVi69SOKDGzMumPR583-13" value="玩法引导结束" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
@@ -105,6 +105,78 @@
               <mxPoint x="710" y="550" />
               <mxPoint x="710" y="60" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="doVi69SOKDGzMumPR583-27" value="玩法引导通关界面" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="740" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="doVi69SOKDGzMumPR583-28" value="点击第2关" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="810" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="doVi69SOKDGzMumPR583-29" value="进入关卡" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="880" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="doVi69SOKDGzMumPR583-30" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="doVi69SOKDGzMumPR583-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="820" as="sourcePoint" />
+            <mxPoint x="414" y="1020" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="doVi69SOKDGzMumPR583-32" value="玩家通过第5关" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="1020" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="doVi69SOKDGzMumPR583-33" value="特殊结算界面" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="1090" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="doVi69SOKDGzMumPR583-34" value="主界面" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="354" y="1160" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="doVi69SOKDGzMumPR583-35" value="修建引导开始" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="354" y="1230" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="doVi69SOKDGzMumPR583-36" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="doVi69SOKDGzMumPR583-13" target="doVi69SOKDGzMumPR583-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="424" y="650" as="sourcePoint" />
+            <mxPoint x="424" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="doVi69SOKDGzMumPR583-37" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="doVi69SOKDGzMumPR583-27" target="doVi69SOKDGzMumPR583-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="424" y="720" as="sourcePoint" />
+            <mxPoint x="424" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="doVi69SOKDGzMumPR583-38" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="doVi69SOKDGzMumPR583-28" target="doVi69SOKDGzMumPR583-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="434" y="730" as="sourcePoint" />
+            <mxPoint x="434" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="doVi69SOKDGzMumPR583-39" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="doVi69SOKDGzMumPR583-32" target="doVi69SOKDGzMumPR583-33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="424" y="790" as="sourcePoint" />
+            <mxPoint x="424" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="doVi69SOKDGzMumPR583-40" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="doVi69SOKDGzMumPR583-33" target="doVi69SOKDGzMumPR583-34">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="434" y="800" as="sourcePoint" />
+            <mxPoint x="434" y="830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="doVi69SOKDGzMumPR583-41" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="doVi69SOKDGzMumPR583-34" target="doVi69SOKDGzMumPR583-35">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="444" y="810" as="sourcePoint" />
+            <mxPoint x="444" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="doVi69SOKDGzMumPR583-42" value="修建引导结束" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="354" y="1300" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="doVi69SOKDGzMumPR583-44" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="doVi69SOKDGzMumPR583-35" target="doVi69SOKDGzMumPR583-42">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="424" y="1210" as="sourcePoint" />
+            <mxPoint x="424" y="1240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
